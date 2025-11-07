@@ -1,0 +1,20 @@
+[project]
+name = "genoscope"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13.7"
+dependencies = [
+    "beautifulsoup4>=4.14.2",
+    "biopython>=1.86",
+    "bs4>=0.0.2",
+    "ipython-genutils>=0.2.0",
+    "matplotlib>=3.10.7",
+    "plotly>=6.4.0",
+    "py3dmol>=2.5.3",
+    "requests>=2.32.5",
+    "stmol>=0.0.9",
+    "streamlit>=1.51.0",
+    "torch>=2.9.0",
+    "transformers>=4.57.1",
+]
