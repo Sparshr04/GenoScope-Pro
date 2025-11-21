@@ -1,21 +1,20 @@
 # 🧬 GenoScope Pro
 
-**GenoScope Pro** is an AI-powered bioinformatics dashboard that predicts the pathogenicity of protein missense mutations **in real-time**.
+**GenoScope Pro** is an AI-powered bioinformatics dashboard that predicts the pathogenicity of protein missense mutations **in real-time**. Combining **Meta AI’s ESM2 transformer**, **AlphaFold 3D structures**, and **ClinVar clinical evidence** to assess mutation impact instantly.
 
-Think of it as a **"DNA Spell-Checker"** — combining **Meta AI’s ESM2 transformer**, **AlphaFold 3D structures**, and **ClinVar clinical evidence** to assess mutation impact instantly.
 
----
+### 💫 UI
+![App Demo](./assets/demo3.gif)
 
+### ⚡️ Flow
 <p align="center">
-  <img src="assets/demo.gif" alt="GenoScope Pro Demo" width="600">
+  <img src="./assets/flow.jpeg" width="350">
 </p>
-
 ---
 
 ## 🏆 Award
 GenoScope Pro won the **“Spark of Innovation” 🏆** at the **BioSpark Hackathon 2025**, held at *D Y Patil International University*.
 
----
 
 ## 🚀 Features
 
@@ -49,19 +48,11 @@ GenoScope Pro won the **“Spark of Innovation” 🏆** at the **BioSpark Hacka
 
 ---
 
-## 🧪 Demo
-
-> Replace `assets/demo.gif` with your actual GIF path.
-
-
-
----
-
 ## 📦 Installation
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/genoscope-pro.git
+git clone https://github.com/Sparshr04/GenoScope-Pro.git
 cd genoscope-pro
 ```
 ### 2. Environment Setup
@@ -94,12 +85,25 @@ streamlit run app.py
 ### 📂 Project Structure
 ```
 genoscope-pro/
-├── app.py                 # Streamlit Interface
-├── config.py              # Configuration and constants
-├── requirements.txt       # Dependencies
-├── core/
-│   ├── ai_engine.py       # ESM2 Zero-shot Inference Logic
-│   └── data_client.py     # Handles UniProt, AlphaFold, ClinVar APIs
-└── ui/
-    └── visualizer.py      # 3D Py3Dmol Visualization
+├── app.py             # Streamlit Interface
+├── assets
+│   ├── demo3.gif
+│   └── flow.jpeg
+├── config.py          # Configuration and constants
+├── core
+│   ├── ai_engine.py.  # ESM2 Zero-shot Inference Logic
+│   └── data_client.py # Handles UniProt, AlphaFold, ClinVar APIs
+├── dataset.py
+├── examples
+│   └── mutations_list.txt
+├── requirements.txt   # Dependencies
+├── pyproject.toml
+├── README.md
+├── ui
+│   └── visualizer.py  # 3D Py3Dmol Visualization
+
 ```
+
+
+> ### ⚠️ Testing 
+>If you are unsure about the UniProt IDs and Mutation Pairs. You can use the examples pairs. But all pairs might not work, although you can cross match the mutations and proteins! Just copy-paste the content from `examples/mutations_list.txt` file
