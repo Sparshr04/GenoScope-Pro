@@ -1,13 +1,43 @@
-# Python-generated files
+# Python cache / compiled files
 __pycache__/
-*.py[oc]
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Byte-compiled / optimized / DLL files
+*.cpython-*
+
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# UV-specific
+uv.lock
+
+# Build artifacts
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
+*.eggs/
 
-# Virtual environments
-.venv
+# Streamlit cache
+.streamlit/
 
-#VS code 
-.vscode
+# Logs
+*.log
+logs/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
