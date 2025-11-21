@@ -8,7 +8,7 @@
 
 ### ⚡️ Flow
 <p align="center">
-  <img src="./assets/flow.jpeg" width="350">
+  <img src="./assets/flow.jpeg" width="400">
 </p>
 ---
 
@@ -53,7 +53,7 @@ GenoScope Pro won the **“Spark of Innovation” 🏆** at the **BioSpark Hacka
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/Sparshr04/GenoScope-Pro.git
-cd genoscope-pro
+cd GenoScope-Pro/
 ```
 ### 2. Environment Setup
 > **Note:** This project supports **uv**, a new fast Python package manager.  
