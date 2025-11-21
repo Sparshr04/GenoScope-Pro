@@ -152,5 +152,5 @@ class BioDataClient:
             "significance": first_record.get("clinical_significance", "Unknown"),
             "conditions": first_record.get("conditions", {}).get("name", "Not specified"),
             "source": "MyVariant.info (ClinVar)",
-            "debug_query": q  # <--- CHANGED from "match_query" to "debug_query" to match your app.py
+            "debug_query": q 
         }
