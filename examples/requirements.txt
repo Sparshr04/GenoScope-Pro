@@ -1,0 +1,17 @@
+beautifulsoup4>=4.14.2
+biopython>=1.86
+bs4>=0.0.2
+ipython-genutils>=0.2.0
+matplotlib>=3.10.7
+plotly>=6.4.0
+py3dmol>=2.5.3
+requests>=2.32.5
+stmol>=0.0.9
+streamlit>=1.51.0
+torch>=2.9.0
+transformers>=4.57.1
+
+# Optional / Suggested for API & dev
+uvicorn>=0.23.0
+pytest>=8.0.0
+black>=23.3.0
